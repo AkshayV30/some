@@ -1,0 +1,45 @@
+body {
+  /* max-width: 600px; */
+  margin: 0 auto;
+  font-family: "Noto Sans Devanagari", sans-serif;
+}
+section {
+  background-color: antiquewhite;
+  /* display: grid;
+  grid-template-columns: 50px 500px 50px;
+  grid-template-rows: 50px 500px 50px; */
+}
+
+/* .gimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+   display: block; 
+  display: flex;
+  flex-direction: column;
+
+  background-color: chartreuse;
+  gap: 10px;
+} */
+
+.generalSunday {
+  /* font-size: 70px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptySpace {
+  height: 150px; /*Specify Height*/
+  width: 150px; /*Specify Width*/
+  border: 1px solid black; /*Add 1px solid border, use any color you want*/
+  background-color: green; /*Add a background color to the box*/
+  text-align: center; /*Align the text to the center*/
+}
+
+.communionWorship {
+  background-color: rgb(134, 244, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
